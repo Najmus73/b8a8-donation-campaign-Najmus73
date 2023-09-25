@@ -34,5 +34,77 @@
         "BackgroundColor": "#FEEAE4",
         "TextColor":"#F87147",
         "CategoryColor":"#FDD2C4"
+    },
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/PjMTsM5/Health.png",
+        "category": "Health",
+        "title":"Clean water for children",
+        "BackgroundColor": "#D9E5FF",
+        "TextColor":"#0052FF",
+        "CategoryColor":"#AEC7FF"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/RNhHG1K/Clothing.png",
+        "category": "Clothing",
+        "title":"Used Clothing Drive",
+        "BackgroundColor": "#EBF6E2",
+        "TextColor":"#79C23F",
+        "CategoryColor":"#D4ECC2"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/3M8VCrz/Education.png",
+        "category": "Education",
+        "title":"Good education",
+        "BackgroundColor": "#FFE3E4",
+        "TextColor":"#FF444A",
+        "CategoryColor":"#F8C5C9"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/1GQKyNg/Food.png",
+        "category": "Food",
+        "title":"Better Food for Everyone",
+        "BackgroundColor": "#FEEAE4",
+        "TextColor":"#F87147",
+        "CategoryColor":"#FDD2C4"
+    },
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/PjMTsM5/Health.png",
+        "category": "Health",
+        "title":"Clean water for children",
+        "BackgroundColor": "#D9E5FF",
+        "TextColor":"#0052FF",
+        "CategoryColor":"#AEC7FF"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/RNhHG1K/Clothing.png",
+        "category": "Clothing",
+        "title":"Used Clothing Drive",
+        "BackgroundColor": "#EBF6E2",
+        "TextColor":"#79C23F",
+        "CategoryColor":"#D4ECC2"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/3M8VCrz/Education.png",
+        "category": "Education",
+        "title":"Good education",
+        "BackgroundColor": "#FFE3E4",
+        "TextColor":"#FF444A",
+        "CategoryColor":"#F8C5C9"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/1GQKyNg/Food.png",
+        "category": "Food",
+        "title":"Better Food for Everyone",
+        "BackgroundColor": "#FEEAE4",
+        "TextColor":"#F87147",
+        "CategoryColor":"#FDD2C4"
     }
 ]
