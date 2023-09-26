@@ -15,7 +15,7 @@ const Home = () =>{
         </div>
           <div className="grid grid-cols-4 pt-72">
               {
-                AllData.map(data =><DonationCard key={data.id} data={data}></DonationCard>)
+                AllData?.map(data =><DonationCard key={data.id} data={data}></DonationCard>)
               }
           </div>
         </div>
