@@ -1,0 +1,56 @@
+@media screen and (max-width: 480px){
+    #navBar{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    #banner{
+        padding-left: 35px
+    }
+    #homeCards{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+        padding-left: 30px;
+        margin-top: -170px;
+    }
+    
+}
+@media (min-width:768px) and (max-width: 1199px){
+    #navBar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #homeCards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 30px;
+        padding-bottom: 250px;
+        margin-top: -170px;
+    }
+    #img{
+        width: 100px;
+    }
+    #donation{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 35px;
+       
+    }
+    #seeBtn{
+        padding-bottom: 350px;
+    }
+    #details{
+        width: 770px;
+    }
+    #detailsText{
+        width: 750px;
+        padding-bottom: 300px;
+    }
+    #fullDetails{
+        overflow: hidden;
+    }
+  
+
+}

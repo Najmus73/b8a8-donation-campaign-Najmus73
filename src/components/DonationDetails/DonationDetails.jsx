@@ -8,7 +8,7 @@ const DonationDetails = () =>{
      const donation = donations.find(donation => donation.id === idInt)
 
     return(
-         <div>
+         <div id="fullDetails">
                <DonationID donation={donation}></DonationID>
          </div>
     )

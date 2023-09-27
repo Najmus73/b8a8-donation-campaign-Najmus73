@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import StatisticsPie from "../StatisticsPie/StatisticPie";
+import { useLoaderData } from "react-router-dom";
 
 
 const Statistics = () => {
@@ -10,12 +11,12 @@ const Statistics = () => {
             setDonations(donationItems);
         }
        },[])
+       const fullData = useLoaderData();
+       
        
     return(
         <div>
-           {
-            donations.map(donation => <StatisticsPie key={donation.id} donation={donation}></StatisticsPie>)
-           }
+           <StatisticsPie donation={donations} fullData={fullData}></StatisticsPie>
         </div>
     )
 }

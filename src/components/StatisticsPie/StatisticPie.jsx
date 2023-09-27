@@ -1,10 +1,31 @@
-const StatisticsPie = ({donation}) =>{
-    const {price} = donation;
-  
-    
+import { Line, LineChart, PieChart } from "recharts";
+
+const StatisticsPie = ({donation,fullData}) =>{
+    const length = donation.length
+    const fullLength = fullData.length
+    const data = [
+        {id:1,name:'Alice',math:length},
+        {id:1,name:'Alice',math:length},
+        {id:1,name:'Alice',math:length},
+        {id:1,name:'Alice',math:length},
+        {id:1,name:'Alice',math:length},
+        {id:1,name:'Alice',math:fullLength},
+        {id:1,name:'Alice',math:fullLength},
+        {id:1,name:'Alice',math:fullLength},
+        {id:1,name:'Alice',math:fullLength},
+        {id:1,name:'Alice',math:fullLength},
+        
+    ];
+
     return (
-        <div>
-            <h1></h1>
+        <div className="pt-24">
+             <h1 className="text-center text-2xl font-bold">Donation Slots : {fullLength}</h1>
+             <h1 className="text-center text-2xl font-bold">All Donations : {length}</h1>
+
+             <LineChart width={400} height={400} data={data}>
+             <Line type="monotone" dataKey="math" stroke="#8884d8" />
+             </LineChart>
+             
         </div>
     )
 }

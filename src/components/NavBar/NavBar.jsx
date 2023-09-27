@@ -1,10 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
+import '../FullSiteCss/FullSiteCss.css'
 
 
 const NavBar = () =>{
     return (
       <div className="pt-10">
-        <nav className="flex justify-between text-center">
+        <nav className="flex justify-between text-center" id="navBar">
           <div><Link to="/"><img className="w-36" src="https://i.ibb.co/Nx0jk6p/Logo.png"></img></Link></div>
           <ul className="flex gap-10"> 
             <li>

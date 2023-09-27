@@ -26,13 +26,13 @@ const DonationID = ({donation}) => {
     }
     return(
         <div className="pt-16 rounded-lg">
-           <div className="w-[1200px] h-[600px] mx-auto" style={{backgroundImage:`url(${bigImage})`,backgroundSize:'100%',backgroundRepeat:'no-repeat'}}>
+           <div className="w-[390px] h-[200px] md:w-[1200px] md:h-[600px] mx-auto" id="details" style={{backgroundImage:`url(${bigImage})`,backgroundSize:'100%',backgroundRepeat:'no-repeat'}}>
 
-           <div className="pt-[530px] pl-6 w-[1200px]">
+           <div className="pt-36 md:pt-[530px] md:w-[1200px] pl-6 " id="donateBtn">
               <button onClick={handleAddToDonation} className="btn text-white" style={{backgroundColor: TextColor}}>Donate ${price}</button>
             </div>
            </div>
-           <div className="w-[1200px] mx-auto pt-8">
+           <div className="w-[390px] md:w-[1200px] mx-auto pt-8" id="detailsText">
               <h1 className="text-2xl font-bold pb-4">{title}</h1>
               <p><small>{details}</small></p>
            </div>
