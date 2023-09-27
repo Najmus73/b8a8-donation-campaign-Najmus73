@@ -31,6 +31,9 @@ const DonationID = ({donation}) => {
            <div className="pt-36 md:pt-[530px] md:w-[1200px] pl-6 " id="donateBtn">
               <button onClick={handleAddToDonation} className="btn text-white" style={{backgroundColor: TextColor}}>Donate ${price}</button>
             </div>
+            <div className="w-[1280] h-[100px] bg-black mt-[-76px] bg-opacity-50" id="opacity">
+
+            </div>
            </div>
            <div className="w-[390px] md:w-[1200px] mx-auto pt-8" id="detailsText">
               <h1 className="text-2xl font-bold pb-4">{title}</h1>

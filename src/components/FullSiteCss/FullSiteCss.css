@@ -26,8 +26,9 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         padding-left: 30px;
-        padding-bottom: 250px;
+        padding-bottom: 450px;
         margin-top: -170px;
+        
     }
     #img{
         width: 100px;
@@ -35,11 +36,11 @@
     #donation{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        padding-left: 35px;
+        
        
     }
     #seeBtn{
-        padding-bottom: 350px;
+        padding-bottom: 450px;
     }
     #details{
         width: 770px;
@@ -50,6 +51,9 @@
     }
     #fullDetails{
         overflow: hidden;
+    }
+    #opacity{
+        visibility: hidden;
     }
   
 

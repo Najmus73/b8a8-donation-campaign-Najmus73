@@ -25,7 +25,7 @@ const Donation = () => {
 
         <div>
          {donations.length > 0 && <button onClick={handleRemove} className="px-5 py-1.5 bg-blue-600 text-white rounded-lg block mx-auto">Delete All Donations</button>}
-           <div className="grid grid-cols-1 md:grid-cols-2 pb-10" id="donation"> 
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pb-10" id="donation"> 
                {
                   isShow ? donations.map(donation =><AfterDonation key={donation.id} donation={donation}></AfterDonation>)
                   :

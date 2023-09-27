@@ -1,4 +1,6 @@
 import { Line, LineChart, PieChart } from "recharts";
+import PieDonation from "../PieChart/PieDonation";
+
 
 const StatisticsPie = ({donation,fullData}) =>{
     const length = donation.length
@@ -25,6 +27,7 @@ const StatisticsPie = ({donation,fullData}) =>{
              <LineChart width={400} height={400} data={data}>
              <Line type="monotone" dataKey="math" stroke="#8884d8" />
              </LineChart>
+               <PieDonation length={length} fullLength={fullLength}></PieDonation>
              
         </div>
     )

@@ -4,7 +4,7 @@ const AfterDonation =({donation}) =>{
     const { id,image,category,title,BackgroundColor,TextColor,CategoryColor,bigImage,price } = donation;
     return (
         <div className="pt-20">
-           <div className="card card-side md:w-[700px] bg-base-100 shadow-xl">
+           <div className="card card-side  h-[250px] bg-base-100 shadow-xl">
   <figure><img className="w-[400px] h-[350px] md:w-[350px]" src={image} /></figure>
   <div className="card-body rounded-r-lg"style={{backgroundColor: BackgroundColor}}>
     <button className="rounded-md w-[80px]" style={{backgroundColor: CategoryColor,color:TextColor}}>{category}</button>
