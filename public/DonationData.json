@@ -2,24 +2,26 @@
     {
         "id": 1,
         "image": "https://i.ibb.co/PjMTsM5/Health.png",
-        "bigImage":"https://i.ibb.co/Fb2mMTM/Education-Big.png",
+        "bigImage":"https://i.ibb.co/6ZBYvL7/friendly-hospital-phlebotomist-collecting-blood-sample-from-patient-lab-preparation-blood-test-by-fe.jpg",
         "category": "Health",
         "title":"Clean water for children",
         "BackgroundColor": "#D9E5FF",
         "TextColor":"#0052FF",
         "CategoryColor":"#AEC7FF",
-        "price":"$290"
+        "price":290,
+        "details":"A blood donation is a procedure when individuals give blood to others to assist them with their ailments. Giving blood is an actual existence sparing and philanthropic motion that shows solidarity with others and worries for their issues and languishing.There could be a few distinct purposes for an individual’s prerequisite of blood. The requirement for blood could emerge because of a disease or a mishap. At all, the explanation could be; blood gift is the main achievable arrangement. Blood gift isn’t just useful for the beneficiary yet, also helps the benefactor and the general public."
     },
     {
         "id": 2,
         "image": "https://i.ibb.co/RNhHG1K/Clothing.png",
-        "bigImage":"https://i.ibb.co/Fb2mMTM/Education-Big.png",
+        "bigImage":"https://i.ibb.co/wK9kvcC/group-volunteers-checking-clothes.jpg",
         "category": "Clothing",
         "title":"Used Clothing Drive",
         "BackgroundColor": "#EBF6E2",
         "TextColor":"#79C23F",
         "CategoryColor":"#D4ECC2",
-        "price":"$290"
+        "price":290,
+        "details":"By donating your unwanted clothes to charity, you're not only helping the environment, you're also supporting brilliant causes. In fact, donated clothing is one of the biggest sources of funds raised by charities. The best part is that you can choose which charity you want to give that coat, dress or top to."
     },
     {
         "id": 3,
@@ -30,40 +32,44 @@
         "BackgroundColor": "#FFE3E4",
         "TextColor":"#FF444A",
         "CategoryColor":"#F8C5C9",
-        "price":"$290"
+        "price":290,
+        "details":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
     },
     {
         "id": 4,
         "image": "https://i.ibb.co/1GQKyNg/Food.png",
-        "bigImage":"https://i.ibb.co/Fb2mMTM/Education-Big.png",
+        "bigImage":"https://i.ibb.co/pJxFyGj/close-up-people-holding-apples-bag.jpg",
         "category": "Food",
         "title":"Better Food for Everyone",
         "BackgroundColor": "#FEEAE4",
         "TextColor":"#F87147",
         "CategoryColor":"#FDD2C4",
-        "price":"$290"
+        "price":290,
+        "details":"Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and at the same time, it can improve harmony, friendliness, and trust among residents."
     },
     {
         "id": 5,
         "image": "https://i.ibb.co/PjMTsM5/Health.png",
-        "bigImage":"https://i.ibb.co/Fb2mMTM/Education-Big.png",
+        "bigImage":"https://i.ibb.co/6ZBYvL7/friendly-hospital-phlebotomist-collecting-blood-sample-from-patient-lab-preparation-blood-test-by-fe.jpg",
         "category": "Health",
         "title":"Clean water for children",
         "BackgroundColor": "#D9E5FF",
         "TextColor":"#0052FF",
         "CategoryColor":"#AEC7FF",
-        "price":"$290"
+        "price":290,
+        "details":"A blood donation is a procedure when individuals give blood to others to assist them with their ailments. Giving blood is an actual existence sparing and philanthropic motion that shows solidarity with others and worries for their issues and languishing.There could be a few distinct purposes for an individual’s prerequisite of blood. The requirement for blood could emerge because of a disease or a mishap. At all, the explanation could be; blood gift is the main achievable arrangement. Blood gift isn’t just useful for the beneficiary yet, also helps the benefactor and the general public."
     },
     {
         "id": 6,
         "image": "https://i.ibb.co/RNhHG1K/Clothing.png",
-        "bigImage":"https://i.ibb.co/Fb2mMTM/Education-Big.png",
+        "bigImage":"https://i.ibb.co/wK9kvcC/group-volunteers-checking-clothes.jpg",
         "category": "Clothing",
         "title":"Used Clothing Drive",
         "BackgroundColor": "#EBF6E2",
         "TextColor":"#79C23F",
         "CategoryColor":"#D4ECC2",
-        "price":"$290"
+        "price":290,
+        "details":"By donating your unwanted clothes to charity, you're not only helping the environment, you're also supporting brilliant causes. In fact, donated clothing is one of the biggest sources of funds raised by charities. The best part is that you can choose which charity you want to give that coat, dress or top to."
     },
     {
         "id": 7,
@@ -74,40 +80,44 @@
         "BackgroundColor": "#FFE3E4",
         "TextColor":"#FF444A",
         "CategoryColor":"#F8C5C9",
-        "price":"$290"
+        "price":290,
+        "details":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
     },
     {
         "id": 8,
         "image": "https://i.ibb.co/1GQKyNg/Food.png",
-        "bigImage":"https://i.ibb.co/Fb2mMTM/Education-Big.png",
+        "bigImage":"https://i.ibb.co/pJxFyGj/close-up-people-holding-apples-bag.jpg",
         "category": "Food",
         "title":"Better Food for Everyone",
         "BackgroundColor": "#FEEAE4",
         "TextColor":"#F87147",
         "CategoryColor":"#FDD2C4",
-        "price":"$290"
+        "price":290,
+        "details":"Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and at the same time, it can improve harmony, friendliness, and trust among residents."
     },
     {
         "id": 9,
         "image": "https://i.ibb.co/PjMTsM5/Health.png",
-        "bigImage":"https://i.ibb.co/Fb2mMTM/Education-Big.png",
+        "bigImage":"https://i.ibb.co/6ZBYvL7/friendly-hospital-phlebotomist-collecting-blood-sample-from-patient-lab-preparation-blood-test-by-fe.jpg",
         "category": "Health",
         "title":"Clean water for children",
         "BackgroundColor": "#D9E5FF",
         "TextColor":"#0052FF",
         "CategoryColor":"#AEC7FF",
-        "price":"$290"
+        "price":290,
+        "details":"A blood donation is a procedure when individuals give blood to others to assist them with their ailments. Giving blood is an actual existence sparing and philanthropic motion that shows solidarity with others and worries for their issues and languishing.There could be a few distinct purposes for an individual’s prerequisite of blood. The requirement for blood could emerge because of a disease or a mishap. At all, the explanation could be; blood gift is the main achievable arrangement. Blood gift isn’t just useful for the beneficiary yet, also helps the benefactor and the general public."
     },
     {
         "id": 10,
         "image": "https://i.ibb.co/RNhHG1K/Clothing.png",
-        "bigImage":"https://i.ibb.co/Fb2mMTM/Education-Big.png",
+        "bigImage":"https://i.ibb.co/wK9kvcC/group-volunteers-checking-clothes.jpg",
         "category": "Clothing",
         "title":"Used Clothing Drive",
         "BackgroundColor": "#EBF6E2",
         "TextColor":"#79C23F",
         "CategoryColor":"#D4ECC2",
-        "price":"$290"
+        "price":290,
+        "details":"By donating your unwanted clothes to charity, you're not only helping the environment, you're also supporting brilliant causes. In fact, donated clothing is one of the biggest sources of funds raised by charities. The best part is that you can choose which charity you want to give that coat, dress or top to."
     },
     {
         "id": 11,
@@ -118,17 +128,19 @@
         "BackgroundColor": "#FFE3E4",
         "TextColor":"#FF444A",
         "CategoryColor":"#F8C5C9",
-        "price":"$290"
+        "price":290,
+        "details":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
     },
     {
         "id": 12,
         "image": "https://i.ibb.co/1GQKyNg/Food.png",
-        "bigImage":"https://i.ibb.co/Fb2mMTM/Education-Big.png",
+        "bigImage":"https://i.ibb.co/pJxFyGj/close-up-people-holding-apples-bag.jpg",
         "category": "Food",
         "title":"Better Food for Everyone",
         "BackgroundColor": "#FEEAE4",
         "TextColor":"#F87147",
         "CategoryColor":"#FDD2C4",
-        "price":"$290"
+        "price":290,
+        "details":"Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and at the same time, it can improve harmony, friendliness, and trust among residents."
     }
 ]

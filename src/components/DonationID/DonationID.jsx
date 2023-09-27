@@ -1,7 +1,7 @@
 import swal from "sweetalert";
 
 const DonationID = ({donation}) => {
-    const { id,image,category,title,BackgroundColor,TextColor,CategoryColor,bigImage,price } = donation;
+    const { id,image,category,title,BackgroundColor,TextColor,CategoryColor,bigImage,price,details } = donation;
     const handleAddToDonation = () =>{
         const addedDonationArray = [];
 
@@ -25,15 +25,17 @@ const DonationID = ({donation}) => {
         }
     }
     return(
-        <div>
-           <div className="hero" style={{backgroundImage:` url(${bigImage})`}}>
-  <div className="hero-overlay bg-opacity-60"></div>
-  <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-md">
-      <button onClick={handleAddToDonation} className="btn btn-primary">Donate {price}</button>
-    </div>
-  </div>
-</div>
+        <div className="pt-16 rounded-lg">
+           <div className="w-[1200px] h-[600px] mx-auto" style={{backgroundImage:`url(${bigImage})`,backgroundSize:'100%',backgroundRepeat:'no-repeat'}}>
+
+           <div className="pt-[530px] pl-6 w-[1200px]">
+              <button onClick={handleAddToDonation} className="btn text-white" style={{backgroundColor: TextColor}}>Donate ${price}</button>
+            </div>
+           </div>
+           <div className="w-[1200px] mx-auto pt-8">
+              <h1 className="text-2xl font-bold pb-4">{title}</h1>
+              <p><small>{details}</small></p>
+           </div>
         </div>
     )
 }

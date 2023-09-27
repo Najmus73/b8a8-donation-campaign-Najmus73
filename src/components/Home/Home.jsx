@@ -10,7 +10,7 @@ const Home = () =>{
              <h1 className="text-4xl font-bold">I Grow By Helping People In Need</h1>
              <div className="pt-7">
                 <input className="border p-1.5 rounded-l-lg pr-32" type="text" placeholder="Search here..." />
-                <button className="bg-red-400 p-1.5 px-4 rounded-r-lg">Search</button>
+                <button className="p-1.5 px-4 rounded-r-lg text-white"style={{backgroundColor:'#FF444A'}}>Search</button>
              </div>
         </div>
           <div className="grid grid-cols-4 pt-72">

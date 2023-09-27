@@ -3,7 +3,8 @@ import AfterDonation from "../AfterDonation/AfterDonation";
 
 const Donation = () => {
    const [donations, setDonations] = useState([])
-   const [notFound, setNotFound] = useState("")
+   const [notFound, setNotFound] = useState(false);
+   const [isShow, setIsShow] = useState(false);
 
    useEffect(()=>{
     const donationItems = JSON.parse(localStorage.getItem('donations'));
@@ -13,16 +14,29 @@ const Donation = () => {
          setNotFound('No Data Found')
     }
    },[])
-
+   const handleRemove = ()=>{
+    localStorage.clear();
+    setDonations([]);
+    setNotFound('No Data Found')
+   }
     return(
-        <div>
+        <div className="pt-12">
            {notFound ? <p className="h-[80vh] flex justify-center items-center">{notFound}</p> : 
-           <div className="grid grid-cols-2">
+
+        <div>
+         {donations.length > 0 && <button onClick={handleRemove} className="px-5 py-1.5 bg-blue-600 text-white rounded-lg block mx-auto">Delete All Donations</button>}
+           <div className="grid grid-cols-2 pb-10">
                {
-                donations.map(donation =><AfterDonation key={donation.id} donation={donation}></AfterDonation>)
+                  isShow ? donations.map(donation =><AfterDonation key={donation.id} donation={donation}></AfterDonation>)
+                  :
+                  donations.slice(0, 4).map(donation =><AfterDonation key={donation.id} donation={donation}></AfterDonation>)
                }
-           </div> }
-        </div>
+           </div>
+           <div className="pb-10">
+             {donations.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 py-1.5 bg-blue-600 text-white rounded-lg block mx-auto">{isShow ? 'Show Less':'Show More'}</button>}
+           </div> 
+
+           </div>}</div>
     )
 }
 export default Donation; 
